@@ -27,7 +27,7 @@ Every quiz has ID, title, text, at least 2 choices and correct answers.
 You can browse the quizzes without creating an account. To do that just send GET request to `/api/quizzes` or `/api/quizzes/ID`. The API supports pagination and sorting (10 quizzes on 1 page), so you you can browse the pages with page parameter e.g. `/api/quizzes?page=1`.
 
 To create, solve or delete quizzes you have to be authorized via HTTP Basic Auth, by sending your email and password with each request. To create new quiz send JSON with all data (title, text, options and correct answers) via POST request to `/api/quizzes`. 
-![POST example](./images/post.jpg)
+![POST example](/images/post.jpg)
 
 There might be only one correct answer, multiple correct answers or empty array (means all answers are wrong).
 
