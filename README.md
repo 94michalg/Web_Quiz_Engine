@@ -38,4 +38,4 @@ To see all your correct completions you can send GET request to `api/quizzes/com
 You can also delete quiz by sending DELETE request to `api/quizzes/ID`. Notice that you can only delete quizzes, that you have created.
 
 ## Inspiration
-Project has been made in 12/2020 during Jetbrains Academy course.
+Project has been made in 12/2020 as a part of Jetbrains Academy course.
