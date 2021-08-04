@@ -77,7 +77,7 @@ public class QuizController {
     }
 
     @PostMapping("api/quizzes")
-    public ResponseEntity<Question> savePlanet(Authentication authentication,
+    public ResponseEntity<Question> createQuiz(Authentication authentication,
                                                @RequestBody Question question) {
         if (question.getTitle() == null || question.getText() == null ||
             question.getTitle().equals("") || question.getText().equals("")) {

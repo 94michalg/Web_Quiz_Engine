@@ -1,9 +1,9 @@
 package engine.service;
 
 
-import engine.entity.UserPrincipal;
 import engine.repository.UserRepository;
 import engine.entity.User;
+import engine.entity.UserPrincipal;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
