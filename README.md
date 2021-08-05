@@ -6,7 +6,7 @@
 * [How to use](#how-to-use)
 * [Inspiration](#inspiration)
 ## General info
-Server-side quiz engine with user database, that uses REST API to create, solve, browse and delete quizzes. Project has been built based on Spring Boot, all information are stored in H2 database, passwords are encrypted using BCrypt and Hibernate was used as a data access layer. All information are send using JSON format.
+Server-side quiz engine with user database, that use REST API to create, solve, browse and delete quizzes. Project has been built based on Spring Boot, all information are stored in H2 database, passwords are encrypted using BCrypt and Hibernate was used as a data access layer. All information are send using JSON format.
 ## Technologies
 * Gradle
 * Spring Boot
